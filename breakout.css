@@ -36,3 +36,21 @@ body {
   margin-top: 10px;
   display: none;
 }
+#info {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  font-size: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  display: none;
+  @media screen and (max-width: 768px) {
+    display: flex;
+  }
+}
